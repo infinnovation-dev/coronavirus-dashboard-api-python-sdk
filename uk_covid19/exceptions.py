@@ -53,3 +53,4 @@ Parameters:
         )
 
         super().__init__(message)
+        self.status_code = response.status_code
